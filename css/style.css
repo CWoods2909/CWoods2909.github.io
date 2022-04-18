@@ -43,12 +43,12 @@ body::-webkit-scrollbar {
 }
 
 .btn-bar .px-btn {
-	min-width: 150px;
-	text-align: center;
-  }
-  .btn-bar .px-btn + .px-btn {
-	margin-left: 22px;
-  }
+  min-width: 150px;
+  text-align: center;
+}
+.btn-bar .px-btn + .px-btn {
+  margin-left: 22px;
+}
 
 .px-btn {
   padding: 0 25px;
@@ -1874,7 +1874,7 @@ body.modal {
 .tokyo_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor {
   display: none;
 }
-.mouse-cursor {
+/* .mouse-cursor {
   position: fixed;
   left: 0;
   top: 0;
@@ -1883,8 +1883,8 @@ body.modal {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   visibility: hidden;
-}
-.cursor-inner {
+} */
+/* .cursor-inner {
   margin-left: -3px;
   margin-top: -3px;
   width: 6px;
@@ -1895,16 +1895,16 @@ body.modal {
     margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
   transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
     margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
-}
-.cursor-inner.cursor-hover {
+} */
+/* .cursor-inner.cursor-hover {
   margin-left: -40px;
   margin-top: -40px;
   width: 80px;
   height: 80px;
   background-color: #000;
   opacity: 0.3;
-}
-.cursor-outer {
+} */
+/* .cursor-outer {
   margin-left: -15px;
   margin-top: -15px;
   width: 30px;
@@ -1916,10 +1916,10 @@ body.modal {
   opacity: 0.5;
   -webkit-transition: all 0.08s ease-out;
   transition: all 0.08s ease-out;
-}
-.cursor-outer.cursor-hover {
+} */
+/* .cursor-outer.cursor-hover {
   opacity: 0;
-}
+} */
 
 /*---------------------------------------------------*/
 /*	11) TOKYO MEDIA QUERIES (FOR SMALL DEVIVES)
